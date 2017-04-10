@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		671C49D51E72924200F913F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C49D41E72924200F913F3 /* AppDelegate.swift */; };
-		671C49D71E72924200F913F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C49D61E72924200F913F3 /* ViewController.swift */; };
 		671C49DA1E72924200F913F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671C49D81E72924200F913F3 /* Main.storyboard */; };
 		671C49DC1E72924200F913F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671C49DB1E72924200F913F3 /* Assets.xcassets */; };
 		671C49DF1E72924200F913F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671C49DD1E72924200F913F3 /* LaunchScreen.storyboard */; };
 		671C49EA1E72924200F913F3 /* PortafolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C49E91E72924200F913F3 /* PortafolioTests.swift */; };
 		671C49F51E72924200F913F3 /* PortafolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C49F41E72924200F913F3 /* PortafolioUITests.swift */; };
+		67BA31A51E78A8F100AFB26A /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BA31A41E78A8F100AFB26A /* ConversionViewController.swift */; };
+		67BA31A81E78EBE100AFB26A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BA31A71E78EBE100AFB26A /* MapKit.framework */; };
+		67BA31AA1E78F3BA00AFB26A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BA31A91E78F3BA00AFB26A /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		671C49D11E72924200F913F3 /* Portafolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portafolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		671C49D41E72924200F913F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		671C49D61E72924200F913F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		671C49D91E72924200F913F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		671C49DB1E72924200F913F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		671C49DE1E72924200F913F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		671C49F01E72924200F913F3 /* PortafolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortafolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		671C49F41E72924200F913F3 /* PortafolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortafolioUITests.swift; sourceTree = "<group>"; };
 		671C49F61E72924200F913F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BA31A41E78A8F100AFB26A /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		67BA31A71E78EBE100AFB26A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		67BA31A91E78F3BA00AFB26A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67BA31A81E78EBE100AFB26A /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				671C49E81E72924200F913F3 /* PortafolioTests */,
 				671C49F31E72924200F913F3 /* PortafolioUITests */,
 				671C49D21E72924200F913F3 /* Products */,
+				67BA31A61E78EBE100AFB26A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				671C49D41E72924200F913F3 /* AppDelegate.swift */,
-				671C49D61E72924200F913F3 /* ViewController.swift */,
+				67BA31A41E78A8F100AFB26A /* ConversionViewController.swift */,
+				67BA31A91E78F3BA00AFB26A /* MapViewController.swift */,
 				671C49D81E72924200F913F3 /* Main.storyboard */,
 				671C49DB1E72924200F913F3 /* Assets.xcassets */,
 				671C49DD1E72924200F913F3 /* LaunchScreen.storyboard */,
@@ -123,6 +130,14 @@
 				671C49F61E72924200F913F3 /* Info.plist */,
 			);
 			path = PortafolioUITests;
+			sourceTree = "<group>";
+		};
+		67BA31A61E78EBE100AFB26A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67BA31A71E78EBE100AFB26A /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				671C49D71E72924200F913F3 /* ViewController.swift in Sources */,
+				67BA31A51E78A8F100AFB26A /* ConversionViewController.swift in Sources */,
+				67BA31AA1E78F3BA00AFB26A /* MapViewController.swift in Sources */,
 				671C49D51E72924200F913F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +528,7 @@
 				671C49FB1E72924200F913F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		671C49FC1E72924200F913F3 /* Build configuration list for PBXNativeTarget "PortafolioTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +537,7 @@
 				671C49FE1E72924200F913F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		671C49FF1E72924200F913F3 /* Build configuration list for PBXNativeTarget "PortafolioUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +546,7 @@
 				671C4A011E72924200F913F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
